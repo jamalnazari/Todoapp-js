@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Test</title>
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  
 </head>
-<body>
-    
+<body style="height: 1000px;">
+            <div class="container">
+              <div class="row justify-content-around ">
+                <div id="1" class="col-1 bg-primary m-2 my-5 day">saturday</div>
+                <div id="2" class="col-1 bg-primary m-2 my-5 day">Sunday</div>
+                <div id="3" class="col-1 bg-primary m-2 my-5 day">Monday</div>
+                <div id="4" class="col-1 bg-primary m-2 my-5 day">Tuesday</div>
+                <div id="5" class="col-1 bg-primary m-2 my-5 day">Wednesday</div>
+                <div id="6" class="col-1 bg-primary m-2 my-5 day">Thursday</div>
+                <div id="7" class="col-1 bg-primary m-2 my-5 day">Friday</div>
+              </div>
+            </div>
+            <div class="container h-50"> 
+              <div class="row h-50 justify-content-around">
+                <div class="col-7 m-1 hg rounded ">
+                  <div class="pElem-parent">
+                      <p id="pElem" class="lead"></p> 
+                  </div>
+                </div>
+                <div class="col-4 m-1 hg rounded">
+                  <div class="parent">
+                    <p class="Title m-2 lead">Title :</p>
+                    <input id="inptext" type="text" class="m-1  rounded">
+                  </div>
+                  <div class="parent">
+                    <p class="time m-2 lead">time :</p>
+                    <input id="inptime" type="time" class="m-2 rounded">
+                  </div>
+                  <div class="parent">
+                    <p class="Discription m-2 lead ">Discription :</p>
+                    <textarea id="inpDis" class="inp-text"></textarea>
+                  </div>
+                  <div class="text-center "> 
+                    <button class="add " onclick="addplan">Add plan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      <script src="./index.js"></script>
 </body>
 </html>

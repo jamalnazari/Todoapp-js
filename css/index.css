@@ -1,0 +1,82 @@
+.day{ 
+    width: 30px; 
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.hg{
+    height: 300px;
+    background: rgba(154, 235, 255, 0.39);
+    box-shadow: 1px 1px 2px 2px rgb(238, 255, 238);
+}
+.Title{
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 450px;
+}
+.time{
+    float: left;
+}
+.Discription{
+    float: left;
+    
+}
+.inp-text{
+    height: 100px;
+    text-align: right;
+    direction: rtl;
+}
+#pElem{
+    height: 35px;
+    width: 100px;
+    color: rgb(255, 251, 251);
+    border: 1px solid rgb(92, 252, 100);
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(36, 255, 36);
+}
+.pElem-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: blue;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin:10px
+}
+
+input{
+    border: 1px solid white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 1px 1px 2px 2px rgb(230, 228, 228);
+}
+textarea {
+    height: 100px;
+    padding: 8px;
+    direction: rtl;       
+    resize: both;
+    border: 1px solid white;         
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px rgb(230, 228, 228);
+    
+}
+
+.day.active {
+    background: rgb(0, 255, 21) !important;   /* یا هر رنگ دلخواه */
+}
+.add{
+    background: rgb(189, 255, 183);
+    border: 1px solid rgb(189, 255, 194) ;
+    border-radius: 10px;
+    margin: 10px;
+    width: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.add:hover{
+    background: rgb(121, 255, 68);
+    transition: background 0.4s;
+    
+}

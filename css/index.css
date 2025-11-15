@@ -5,7 +5,7 @@
     cursor: pointer;
 }
 .hg{
-    height: 300px;
+    height: fit-content;
     background: rgba(154, 235, 255, 0.39);
     box-shadow: 1px 1px 2px 2px rgb(238, 255, 238);
 }
@@ -21,19 +21,22 @@
     float: left;
     
 }
-.inp-text{
-    height: 100px;
+#inpDis{
+    height: fit-content;
     text-align: right;
     direction: rtl;
+    width: 190px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#pElem{
+.pElem{
     height: 35px;
     width: 100px;
-    color: rgb(255, 251, 251);
-    border: 1px solid rgb(92, 252, 100);
+    color: rgb(26, 14, 14);
+    border: 1px solid rgb(239, 248, 239);
     border-radius: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: rgb(36, 255, 36);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(241, 247, 241);
+    box-shadow: 2px 2px 4px 4px rgb(179, 234, 248);
 }
 .pElem-parent{
     display: flex;
@@ -79,4 +82,13 @@ textarea {
     background: rgb(121, 255, 68);
     transition: background 0.4s;
     
+}
+#inps{
+    display: flex;
+}
+.parentElem{
+    margin: 10px;
+    width: 100px;
+    border: 1px black;
+    background: white;
 }

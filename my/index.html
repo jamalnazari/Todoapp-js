@@ -24,24 +24,27 @@
               <div class="row h-50 justify-content-around">
                 <div class="col-7 m-1 hg rounded ">
                   <div class="pElem-parent">
-                      <p id="pElem" class="lead"></p> 
+                      <p id="pElem"  class="lead pElem"></p> 
+                  </div>
+                  <div id="inps" class="d-flex justify-content-around flex-wrap">
+
                   </div>
                 </div>
                 <div class="col-4 m-1 hg rounded">
                   <div class="parent">
-                    <p class="Title m-2 lead">Title :</p>
+                    <h5 class="Title m-2 ">Title :</h5>
                     <input id="inptext" type="text" class="m-1  rounded">
                   </div>
                   <div class="parent">
-                    <p class="time m-2 lead">time :</p>
+                    <h5 class="time m-2 ">time :</h5>
                     <input id="inptime" type="time" class="m-2 rounded">
                   </div>
                   <div class="parent">
-                    <p class="Discription m-2 lead ">Discription :</p>
-                    <textarea id="inpDis" class="inp-text"></textarea>
+                    <h5 class="Discription m-2  ">Discription :</h5>
+                    <textarea id="inpDis"></textarea>
                   </div>
                   <div class="text-center "> 
-                    <button class="add " onclick="addplan">Add plan</button>
+                    <button id="btnElem" class="add " >Add plan</button>
                   </div>
                 </div>
               </div>

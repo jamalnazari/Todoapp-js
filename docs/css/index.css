@@ -1,7 +1,7 @@
 .day{ 
     width: 30px; 
     color: white;
-    border-radius: 13px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: clamp(14px, 2vw, 20px);
 
@@ -38,7 +38,7 @@
 }
 .pElem{
     height: 35px;
-    width: 100px;
+    width: 25%;
     color: rgb(26, 14, 14);
     border: 1px solid rgb(239, 248, 239);
     border-radius: 10px;
@@ -112,7 +112,7 @@ textarea {
     background: rgb(238, 240, 238);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: clamp(14px, 2vw, 20px);
-
+    
 }
 
 .p-btn{
@@ -121,10 +121,10 @@ textarea {
     background: rgb(252, 105, 105) !important;
     color: rgb(255, 255, 255) !important;
     box-shadow: 0px 0px 1px 1px rgba(248, 136, 136, 0.548);
-    margin: 4px;
+    margin: 1px;
     padding-left: 8px;
     padding-right: 8px;
-    margin-left: 36px;
+    margin-left: 3px;
     height: 30px;
     font-size: large;
     width: fit-content;

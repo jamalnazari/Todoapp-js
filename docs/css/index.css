@@ -3,6 +3,8 @@
     color: white;
     border-radius: 13px;
     cursor: pointer;
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 .hg{
     height: fit-content;
@@ -13,19 +15,24 @@
     float: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 450px;
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 .time{
     float: left;
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 .Discription{
     float: left;
-    
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 #inpDis{
     height: fit-content;
     text-align: right;
     direction: rtl;
-    width: 100%;
+    width: 50%;
     max-width: 160px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -38,6 +45,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: rgb(241, 247, 241);
     box-shadow: 2px 2px 4px 4px rgb(179, 234, 248);
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 .pElem-parent{
     display: flex;
@@ -80,6 +89,8 @@ textarea {
     margin: 10px;
     width: 170px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 .add:hover{
     background: rgb(121, 255, 68);
@@ -100,6 +111,8 @@ textarea {
     box-shadow: 1px 1px 2px 2px rgb(230, 228, 228);
     background: rgb(238, 240, 238);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: clamp(14px, 2vw, 20px);
+
 }
 
 .p-btn{
@@ -118,3 +131,9 @@ textarea {
     cursor: pointer;
 }
 
+.parent-container{
+    width:fit-content !important;
+    position: absolute;
+    left: 300 !important;
+    top: 60;
+}
